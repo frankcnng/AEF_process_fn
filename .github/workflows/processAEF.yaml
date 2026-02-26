@@ -1,0 +1,13 @@
+#	.github/workflows/processAEF.yaml
+
+name:	processAEF
+
+on:
+	push:
+		paths:
+		- 'src/**'
+	pull_request:
+		paths:
+			- 'src/**'
+
+jobs:
